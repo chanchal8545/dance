@@ -1,0 +1,104 @@
+body{
+    background-image: url('img3.jpg');
+    background-size:1500px ;
+    background-repeat: no-repeat;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    grid-template-columns: repeat( auto-fit , minmax(300px,1fr));
+}
+.left{
+    display: inline-block;
+
+color: blanchedalmond;
+left: 35px;
+top: 20px;
+position: absolute;
+font-size: 15px;
+}
+.left img{
+    width: 100px;
+}
+.mid{
+    position:fixed;
+top: 20px;
+padding-left: 400px;
+width: 40%;
+}
+.right{
+    position: fixed;
+right: 35px;
+top: 700px;
+display:inline-block;
+}
+.right button{
+    width: 200px;
+    font-size: large;
+    background-color:purple;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+   display: inline-block;
+   font-size: 25px; 
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 200px 34px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: silver;
+    
+}
+.container button{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    grid-template-columns: repeat( auto-fit , minmax(300px,1fr)); 
+}
+.btn{ 
+    margin: 0px 9px;
+    background-color: blue;
+    color: bisque;
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 2px solid royalblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width:30%;
+    background-color: plum;
+    border: 2px solid red;
+    margin: 700px 200px 100px  ;
+    padding: 25px;
+border-radius: 10px;
+grid-template-columns: repeat( auto-fit , minmax(300px,1fr));
+}
+
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 2px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    grid-template-columns: repeat( auto-fit , minmax(300px,1fr));
+}
